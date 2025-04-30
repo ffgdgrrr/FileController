@@ -1,0 +1,32 @@
+{
+  "name": "filecontroller",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir --win --x64",
+    "dist": "electron-builder"
+  },
+  "author": "ffgdgrrr",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.15.3",
+    "express": "^5.1.0",
+    "fs-extra": "^11.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/fs-extra": "^11.0.4",
+    "electron": "file:electron-20.3.12.tgz",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.ffgdgrrr.filecontroller",
+    "productName": "文件操作工具",
+    "win": {
+      "target": "dir",
+      "icon": "build/icon.ico"
+    }
+  }
+}
