@@ -8,7 +8,7 @@
     "dist": "electron-builder"
   },
   "author": "ffgdgrrr",
-  "license": "ISC",
+  "license": "MIT",
   "description": "",
   "dependencies": {
     "@types/node": "^22.15.3",
